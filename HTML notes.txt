@@ -1,0 +1,33 @@
+HTML: Hypertext Markup Language (we can create the website structure)
+
+What you know about HTML
+- For make website
+- For making web structure
+- Html is like Skelton of a website
+- defines the structure of webpage
+- it tells browser what to disply
+- it uses some Tag
+
+Tag define what you have to use for stucture/  display content
+
+How to identify tag is open or close?
+<tag> open tag
+</tag> close tag
+
+Type of tag (2 type):
+- empty: the tags which has only opening not closing
+- container: tags having opening and closing
+
+extencion will .HTML
+
+<head> tag defins the purpose of the webpage
+<body> tage contains most of tage it is the main source of structure creation
+heading tag:- start from 1 and end 6
+
+
+Useful website
+color palat: https://colorhunt.co/
+web designes: https://codepen.io/
+webstie templates: https://www.figma.com/community/website-templates
+fonts: https://fonts.google.com/
+for font install on pc: https://www.dafont.com/

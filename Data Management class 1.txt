@@ -1,0 +1,98 @@
+Data Management
+Data also be raw format.
+collection of data in the first and formost process, where you need to collect and gather data from various sources in raw format. They could be structured or unstructured. You need to sort the data in a secure and organized manner.
+
+raw data
+std name
+marks
+address
+rollno
+admission no
+percentage
+fname
+mname
+medical history
+heigh
+weigh
+
+the practice of collecting, organizing, storing, securing and using an organization's data.
+
+Key aspects
+- Data Collection: Gathering data from various sources, both internal and external, into a centralized location or a system.
+- Data storage: storing the collected data in a secured and efficient manner, using appropriate storage solution like database, cloud storage, or data warehouse.
+- Data Organization: Structuring and organizing data to make it easy to understand, access and analyze. this includes defining data models, creating data catalogs and establishing data standards.
+-Data security: protecting data from unauthorized access, loss, or corruption through security. measures like access controls, encryption, and regular backups.
+- Data Quality: Ensuring data accuracy, completeness, and consistency through data validation, cleansing, and monitoring processes.
+- Data Access and use: Providing authorized users with the appropriate access to data for analysis, reporting and other business needs.
+- Data Governance: establishing policies, procedures and standers for managing data through its Lifecyle, ensuring data quality, security and compliances. 
+- Data integration: Combining data from different sources to create a unified view of data, enabling comprehensive analysis and reporting.
+
+------------------------------------------------
+Data Lifecycle Management
+provides end to end visibility and control over the data flow through system and process.
+
+8 stages DLM
+- generation
+- collection
+- storage
+- processing
+- Management
+- Analysis
+- Visualization
+- Destruction
+
+Generation: It is starting point where data is create. in various industry, data generation can come from sources like.
+Customer transections
+Sensors reading
+Social media interaction
+Scientific experiments.
+
+collection: not all generated data is captured or useful. 
+	Forms
+	APIs
+	Sensors
+
+storage: Safeguard the collected data is essential.
+	storage places are:
+	- Database
+	- data warehouse
+	- cloud storage.
+
+Processing: when Raw data is converted into meaningful data then it is been done with the help of processing.
+	- Data Wrangling/formatting the data: inconsistency, missing values, errors remove or correct.
+	- data compression: Reducing the data size without losing value/information.
+	- Data Encryption: adding a new security layer to protect the sensitive data.
+	- Data Transformation: Analyzing/ reporting purpose use.
+
+
+Management: you have to manage your data with complete accuracy, security, accessibility.
+
+Analysis: process of analyzing to uncover patterns, trends and valuable insights.  
+
+Visualization: Data insights are prepare in a visually compelling way like charts, graphs, dashboards. (Story telling)
+
+Destruction: end of life is securely delete or anonymized to comply with regulations and ensure privacy.
+
+
+3 main Goal of DLM
+- Availability: it includes data backups, disaster recovery, and performance optimization.
+- Confidentiality: this achieved through access control, encryption, and other security measures.   
+- Integrity: this involves data cleaning, validating and version control techniques.
+
+Benefits of DLM
+- Greater agility: data pipeline allows faster utilization. 
+- storage efficiency: by using policies we can remove the unneeded data.
+- Innovation: based on our data knowledge we can innovate the new opportunities.
+- productivity: height quality data accelerate analysis and insights.
+- Trust: provides confidence in analyzing outcome.
+
+
+
+
+
+
+
+
+
+
+

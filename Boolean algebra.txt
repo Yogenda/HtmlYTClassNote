@@ -1,0 +1,149 @@
+Boolean algebra
+type of algebra that is created by operating the binary system.
+True / False 1/0
+fundamental in the development of digital electronics system.
+Set Theory
+Statistics.
+
+what we will learn
+- Boolean operation
+- Boolean expressions
+- Truth table
+- Boolean laws
+
+
+What is Boolean Algebra?
+it is branch of algebra that deals with Boolean values true and false.
+it is a fundamental to digital logic design and computer science, provide the mathematical framework for describing logical operations and expressions.
+
+Boolean Algebra Operation
+Negation (NOT operation)
+Conjunction (AND operation)
+Disjunction (OR operation)
+
+operator	symbol		precedence
+NOT		' (or)		first
+AND		. (or) ^	Second
+OR		+ (or) V	Third
+
+
+Negation (NOT operation)
+NOT operation reverse the value of the Boolean variable from 0 to 1 or vice-versa.
+- if A=1, then use NOT operation we have (A)' = 0
+- if A=0, then use NOT operation we have (A)' = 1
+- we can also represent the negation as ~A, ie. A=1, ~A=0
+
+
+Conjunction (AND operation)
+the condition if both the values of individual variable is true and if any of the value is false then this operation gives the negative result/false. 
+- A=True, B=True, then A.B= True
+- A=True, B=False, or A=false, B=True, then A.B= False
+- A=False, B=False then A.B= False
+
+Disjunction (OR operation)
+the condition if any value of the individual variable is true it only give the negative result if both the values are false.
+- A=True, B=True, then A+B=True
+- A=True, B=False, or A=False, B=True, A+B= True
+- A=False, B=False, A+B=False
+
+operations	symbols			Definition
+AND		. OR ^			true if both are 					true
+OR		+ OR V			true if at lease 					one input true
+NOT		~ 			Reverse the input
+XOR		O+ 			true if exact one 					input is true
+NAND		down arrow V|		False only if 						both input are 						true.
+NOR		up arrow |^		false if at lease 					one input is 						true.
+XNOR 		both side arrow <->	true if both 						input are equal.
+
+-------------------------------
+class 6
+Boolean expressions and variable
+it an expression that provides a Boolean value when evaluate.
+Boolean variables are variables stored in Boolean numbers.
+P+Q=R
+p,q,r Boolean variables. 2 values store: 0 and 1 / true and false
+
+A+B = True
+A.B = True
+(A)' = False
+
+
+Boolean algebra Terminologies
+- Boolean variable
+- Literal
+- Boolean Functions
+- Complements
+- Truth table
+
+
+Boolean variable: variable used in Boolean algebra that stores the logical values of 0 and 1
+
+Boolean Functions: A function of Boolean Algebra that is formed by the user of Boolean variable and Boolean operators.
+AND, OR, and NOT use for logical expressions.
+
+
+Literal: A variables or the complement of the variable.
+	they represents operands in logical operator.
+
+
+Complements: inverse of Boolean variable is called as complects.
+	complements of 0 is 1 and complement of 1 is 0.
+	
+
+Truth table: it is the combination of input and output values in table format. 
+no of rows in truth table is = 2n
+n is the number of Boolean variable used.
+
+Draw A+B and A.B truth table.
+A B	x=A+B	Y=A.B
+T T	T	T
+T F	T	F
+F T	T	F
+F F	F	F
+
+
+Boolean Algebra Rules
+- Binary Representation: 0 or 1 (0 represents low and 1 represents high)
+- Complement Representation: (A)' A complement if A=0 then o/p A=1
+- OR operation: represents as + (A,B,C) OR A+B+C
+- AND operation: denoted as . (A.B.C) or ABC
+
+
+Laws
+- Identity Law: 
+	A+0=A
+	A.1=A
+
+- Commutative Law:
+	A.B = B.A
+	A+B = B+A
+
+- Associative Law:
+	(A.B).C=A.(B.C)
+	(A+B)+C=A+(B+C)
+
+- AND Law: 
+	A.0=0
+	A.1=A
+	A.A=A
+
+- OR Law:
+	A+0=A
+	A+1=1
+	A+A=A
+
+- Complement Law: 
+	A+A' = 1
+	A.A = 0
+
+
+
+
+
+
+
+
+
+
+
+
