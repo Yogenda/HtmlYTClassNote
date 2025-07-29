@@ -31,3 +31,30 @@ web designes: https://codepen.io/
 webstie templates: https://www.figma.com/community/website-templates
 fonts: https://fonts.google.com/
 for font install on pc: https://www.dafont.com/
+
+---------------------------------------
+class 2
+
+<p></p> - paragraph
+<pre> - pre formated text
+<br> - use to break the line (empty tag)
+<hr> - horizontal ruler (empty tag)
+<!-- code --> - comments are non executable lines
+<b> </b> it is use to make our content bold
+<strong></strong>- it is use to make our content bold (it has heigh prefrence)
+<i> </i> -  use to italic your text 
+<em> </em> -  use to italic your text (it has heigh prefrence)
+<u></u> - use to underline the text
+<del> </del> - use to strike the word
+<strike> </strike> - use to strike the word but it is old tag
+<sup> </sup> - to make the text up and small or keep the text about the base line (maths)
+<sub> </sub> -to make the text down and small or keep the text below the base line (science)
+<q></q> - used for quotation ""
+<marquee> </marquee> - use to make out text slide
+<a></a> - anchour tag - hyperlink- ​a tag embed the links
+element: in html everything is an element starting from start tag to end tag
+    note: except few tage are not element (empt tag)
+
+Attribute: provides some extra info about the tag
+
+
