@@ -51,10 +51,31 @@ class 2
 <sub> </sub> -to make the text down and small or keep the text below the base line (science)
 <q></q> - used for quotation ""
 <marquee> </marquee> - use to make out text slide
-<a></a> - anchour tag - hyperlink- ​a tag embed the links
 element: in html everything is an element starting from start tag to end tag
     note: except few tage are not element (empt tag)
 
 Attribute: provides some extra info about the tag
+
+---------------------------------------
+class 3
+<a></a> - anchour tag - hyperlink- ​a tag embed the links - use to rediret page to anoter page
+    Attribute - href="Link to website"
+                target=" "
+                target="_self" (defalut)
+                target="_blank" (new browsing Tab)
+                target="_parent" (add the content in parent tab if not present then act same as _self)
+    
+    Things we can add in the href
+        - mailto: use to send the email
+        - tel: use to add the phone number
+        - http: used for web urls
+        - # : for ids
+    
+<img> - it used to add the image into our page
+    Attribute for img tag
+        - src="" : use to add the source of image
+        - alt="" : use to add the alternate text if image link not working this text will be display
+        
+
 
 
