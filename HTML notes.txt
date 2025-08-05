@@ -77,5 +77,28 @@ class 3
         - alt="" : use to add the alternate text if image link not working this text will be display
         
 
+table tag - it is use to organize our data properly.
+    Attribute for table tag
+        - border : 1 denotes on and 0 denotes off
+sub tags for table
+    - tr - table row
+    - th - use to add the table column heading
+    - td - use to add the data into the table
 
+    Attribute for table td coulums and rows
+        - colspan="no of colums to mearge"
+        - rowspan = "no of row to merge"
 
+<ul> used for specifing the under list
+    ul defalut type is disc
+        disc (defalut), circle, square, none
+        style="list-style-type: ____ ;"
+
+<ol> use for specifing the type of list (order format=)
+    Attribute: type: 1 (defalut),a,A,i,I
+
+Nested List: list inside anoter list
+
+<dl> descriptive list
+<dt> description term
+<dd> description data
