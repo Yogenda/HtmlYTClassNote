@@ -102,3 +102,46 @@ Nested List: list inside anoter list
 <dl> descriptive list
 <dt> description term
 <dd> description data
+
+---------------------------------------
+class 4
+
+block level and inline elements
+block level elements always starts from the new line.
+inline elements it doesnot start form the new line.
+
+block: 
+<address>,<blockquote>,<dd>,<Div>,<dl> ,<dt>,<canvas>,<form>,<Heading>,<hr>,<li>,<main>,<nav>
+<noscript>,<ol>,<pre>,<section>,<tfoot>,<ul>,<table>,<p>,<Video>,<aside>,<article>,<figcaption>
+<fieldset>,<figure>,<footer>,<header>
+
+inline: 
+<br>,<button>,<time>,<tt>,<var>,<a>,<abbr>,<acronym>,<b>,<cite>,code>,<dfn>,<em>,<i>,<output>
+<q>,<samp>,<script>,<select>,<small>,<span>,<strong>,<sub>,<sup>,<textarea>,<bdo>,big>,<img>
+<input>,<kbd>,<label>,<map>,<Object>
+
+
+span: Is use as a marker to a specific text
+div: cover space from start to end, it is treated as container
+
+class: name of class can be same
+id: id of element can not me same. (it has heigh preffrence)
+
+background color
+class="section1" -- blue
+id="s1" ----------- red 
+
+
+form: are use to take the input from user and store data into DB.
+<form>
+    ------
+</form>
+most important thing in form is "input field"
+also when we use the type we have to specify the type of input
+type:
+    button, text, checkbox, radio, email, password, search, time, urls, color, date, number,
+    range, file, tel, submit, reset, time
+
+"action" attribute: when you want to perform something like, rediret to differetn page.
+mostly used for submiting the form, and set the action for it.
+
