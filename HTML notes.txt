@@ -145,3 +145,28 @@ type:
 "action" attribute: when you want to perform something like, rediret to differetn page.
 mostly used for submiting the form, and set the action for it.
 
+---------------------------------------
+class 5
+<label></label> : what will we to write into input fieldset
+    for="" it us use for identify the value uniquely it works same as ID tag.
+
+<input></input> it takes the inputfrom user. and the input is base on the type attribe.
+    type: type of value we have to store.
+    value="" tels us which value should be stored in server for the option
+
+methods attribe of form tag: 
+    - get
+        . used for getting the data out of server (read only)
+        . we can change the url id
+        . less secure
+        . limited data size (2048)
+        . we can able to do bookmark
+        . used when you want to search somee blogs/ implement filters
+
+    - post
+        . when you are submiting your data to server(create/update)
+        . the url is not visible propeerly insted of page it will use the hash code.
+        . more secure
+        . data size is unlimite
+        . not able to bookmark
+        . login, registration, order placement, file upload

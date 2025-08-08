@@ -1,0 +1,50 @@
+CSS: 
+    - Cascading Style Sheet
+    - used for styling web page. - contorl your colors, fonts, space, and many more.
+
+Why CSS?
+    - css focus on presentation, html focus on content.
+    - for maintaining the page styling.
+
+CSS version:
+    - CSS 1: basic styling
+    - CSS 2: added the position concept, media type.
+    - CSS 3: module, animation, layout, media query.
+
+comments: /*-------styling---------*/
+
+Ways of using CSS: 
+3 type of CSS:
+    - Inline CSS: styling will done on a specific tag in a singl line. and styling will be 
+        done in html page itself.
+        <h1 style="color: blue;">Hello I am H1 tag</h1>
+        attribute used = style=""
+
+    - Internal CSS: the styling part will done inside the html page itself. but inside the
+        <head> </head>  we have to add additional tag for styling <style> .... </style>
+
+    - External CSS: you have to create the additional file with the extention of .css
+        for the styling purpose. 
+        we have to link the css file with the html file.
+        <link rel="stylesheet" href="../style1.css">
+            attribute
+                - rel - it will tell use the link is relate to which type
+                - href - hyperlink refference - we have add the link.
+
+Syntax: 
+    selector{ property : value;}
+    h3{color: cadetblue;}
+
+Selector:
+    - Element selector: all html tags  (p, h1-h6, pre, a, u, table.......)
+        h3{color: cadetblue;}
+    
+    - Class selector: we have to tage the class name with the help of "." folowed by the 
+        class name.
+            .std{background-color:beige ;}
+    
+    - ID Selector: we have to tage the ID name with the help of "#" folowed by the ID name.
+        #cl{background-color: burlywood;}
+    
+    - Grouping selector: we have to select many tags at once seprated by ,
+        p,pre,h4{color: coral;}
