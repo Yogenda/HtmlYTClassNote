@@ -1,0 +1,26 @@
+/* h1{
+    color: red;
+}
+.clh1{
+    color: blueviolet;
+}
+#h1{
+    color: chocolate;
+}
+
+p{
+    background-color: aquamarine;
+} */
+
+
+/* Global selector */
+*{
+    background-color: green;
+    color: #22a88d;
+}
+p{
+    color: #000;
+}
+h2{
+    color: red;
+}

@@ -48,3 +48,48 @@ Selector:
     
     - Grouping selector: we have to select many tags at once seprated by ,
         p,pre,h4{color: coral;}
+
+
+-------------------------------------
+Class 2
+Element selector < Class selector < ID Selector
+Element selector: least prefference  
+Class selector: greater than element selector
+ID Selector: it is greatest of all the selector among element and class selector
+
+
+Global selector: it will contain all the comon things to use in website.
+
+
+CSS heighest prefference: 
+Inline > Internal > External
+Inline CSS: it is having the greates prefference.
+Internal CSS: it is less than inline css and greater than external css.
+External CSS: it is having the least prefference of all type of css.
+
+
+
+Colors:
+purpose: 
+    - to make our website looks good.
+    - make our website or page more readable.
+
+Format:
+    - Named color: you will add the specific color name Red, green, blue, pink, orange.
+        https://htmlcolorcodes.com/color-names/
+    (quick use, less practical)
+
+    - Hexadecimal: #9acd32ff (Standard for website creation)
+        #000000- black (#000)
+        #ffffff - white (#fff)
+
+    - RGB/RGBA: range starting from 0 to 255 (greater for dynamic colors, and we can make out color transparent)
+        rgba(153, 205, 50, 1)
+        transparent: range start form 0 to 1 
+            1: minimun transparent
+            0: maximum transparent
+
+    - hsl/hsla: hsla(80, 61%, 50%, 1.00)
+        transparent: range start form 0.00 to 1.00 
+            1: minimun transparent
+            0: maximum transparent
