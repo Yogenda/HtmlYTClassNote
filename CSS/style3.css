@@ -1,0 +1,18 @@
+/* body{
+    background-color: antiquewhite;
+} */
+
+div{
+    height: 2000px;
+    width: 2000px;
+    /* background-image: url('../img/Git.png'), url('../img/Java.png'); */
+    /* background-image: url('../img/Git.png'); */
+    /* background-repeat: repeat;
+    background-repeat: repeat-x; 
+    background-repeat: repeat-y; */
+    /* background-repeat: no-repeat;  */
+    /* background-position: center; */
+    /* background-size: contain; */
+    /* background: #000 url('../img/Git.png') no-repeat left bottom; */
+    border-style: dotted;
+}

@@ -93,3 +93,54 @@ Format:
         transparent: range start form 0.00 to 1.00 
             1: minimun transparent
             0: maximum transparent
+
+-------------------------------------
+Class 3
+Background:
+What are the things we can use as a background?
+- Background color
+- Background images
+- Background Gradient
+we can use properties to set where we want this things.
+
+Background color: 
+    background-color:- it is used to set the background color of an element.
+        ways we can color name: hsl/hsla, RGB/RGBA, Hexadecimal, Color name
+    body{
+        background-color: antiquewhite;
+    }
+
+    background-image:this property is used to set the background image of an element.
+        propert to used that is URL() it will tell whats the location of an image.
+
+        we can also set multiple background images at one but they will in layer form.
+    body{
+        background-image: url('../img/Git.png'), url('../img/Java.png');
+    }
+
+    Background Repeat: by defalut it is set to repeat thata why images are coming in repated form.
+        background-repeat: ;
+            repeat: defalut 
+            repeat-x: it will repeat the image in x axis
+            repeat-y: it will repeat the image in y axis
+            no-repeat: it will not repeat the image
+
+    background position: it is used to set the image location.
+        top, right, left, bottom.
+        background-position: right top;
+
+    background-size: contain;
+                    cover
+                    auto
+
+    background short hand: background: #000 url('../img/Git.png') no-repeat left bottom;
+
+
+Border Properties: We can create the custom border of our HTML elemts.
+    size, style, color.
+
+    border-style: it is use to set the style of a boder
+        common values: double, dashed, doted, inset, outset, ........
+    
+    Border-width: 
+
