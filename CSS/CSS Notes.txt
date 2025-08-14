@@ -136,11 +136,45 @@ Background color:
     background short hand: background: #000 url('../img/Git.png') no-repeat left bottom;
 
 
-Border Properties: We can create the custom border of our HTML elemts.
-    size, style, color.
+-------------------------------------
+Class 4
+What is border?
+    Border is defined as a outline across the element.
 
-    border-style: it is use to set the style of a boder
-        common values: double, dashed, doted, inset, outset, ........
-    
-    Border-width: 
+by defalut border propert is "Not visible" (border-style: none)
+
+3 main properts of border
+- border-width: it defines the thikness of border - defalut(medium 3-4px)
+- border-style: border type (solid, bouble, dashed, groove, dotted..... ) - defalut (none - invisible)
+- border-color: color of a border - (defalut- depend on the element/ mostly it black)
+
+Best practice:
+- solid - clean, proffessional look
+- dashed/dotted - warding, imprortant, highlight
+- mostly we use border-bottom or border-left to make it more professional
+- always use the contrasting colors in border.
+- border-radius use to make it look more professional
+
+
+what is Box shadow?
+    it is added the shadow effect around the element.
+
+Best practice:
+- use shadow to elevate the buttons and cards
+- avoid using dark shadow as they are old fashion.
+- use the rgba to give the more nature look
+- use complex shadow in the large design
+
+Defalut box shadow property: none (No shadow)
+
+horizontal-offset(required): right (+), left(-)
+vertical-offset(required): top(-), bottom (+)
+blur-radius(optional): 
+spread-radius(optional): + value if grow, - value to shrink
+color: we select the color(defalut black)
+
+Syntex:
+box-shadow: [horizontal-offset] [vertical-offset] blur-radius spread-radius color;
+
+
 
