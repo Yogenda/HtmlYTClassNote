@@ -168,13 +168,43 @@ Best practice:
 Defalut box shadow property: none (No shadow)
 
 horizontal-offset(required): right (+), left(-)
-vertical-offset(required): top(-), bottom (+)
+vertical-offset(required): bottom (+), top(-)
 blur-radius(optional): 
 spread-radius(optional): + value if grow, - value to shrink
 color: we select the color(defalut black)
 
 Syntex:
 box-shadow: [horizontal-offset] [vertical-offset] blur-radius spread-radius color;
+
+-------------------------------------
+Class 5
+Text Shadows: it adds the shadow effect to text, improve readablity.
+
+What is the defalut text shadow property.
+- by defalut no text shadow (text-shadow: none)
+
+text-shadow: [horizontal-offset] [vertical-offset] blur-radius color
+
+best practice:
+- use light colors with low opacity.
+- avoid over use in body text, best for heading and small heading.
+
+
+Typography
+it is used to create web page more readable.
+
+Font-Family: it the typeface used by the text.
+Defalut font in browser: serif or sans-serif
+small strok at the end of word are serif
+no strokes at the end of words sans serif
+
+font-size: it is used to controle the size of text
+    defalut: usually 16px;
+    unit: px, em, rem, %, vw()
+
+em/rem: are related to parent/root font size.
+px: fix size.
+
 
 
 
