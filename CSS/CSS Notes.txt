@@ -203,8 +203,36 @@ font-size: it is used to controle the size of text
     unit: px, em, rem, %, vw()
 
 em/rem: are related to parent/root font size.
-px: fix size.
+
+-------------------------------------
+Class 6
+px: fix size. relative to the screen pixels (border, fix layout)
+em: it is related to its parent font size. related to parent element, (padding, margin)
+rem: it is related to its <html> root dir. related to root element(consistent spacing, typography)
+    1rem = 16px
+%: persentage of parent size related to parent element (_fluid layout, responsive container)
+    Note: % behaves same as em (related to its parent)
+vw: persentage of viewport width. (responsive layout. full width element or view port dependecy)
+
+Font weight: text thickness controle
+    defalut : normal (400)
+        normal (400)
+        bold(700)
+        range of number start from 100-900
+
+Font style: contols the style (normal, italic, oblique)
+    defalut : normal
 
 
+Text-Decoration: used to decorate the text like underline, strike through, overline
+    CSS3 allows multiple value style like dotted, double...
+    defalut: none
 
+Text-transformation: it is used to control the capatilization
+    defalut: none
+    value: none, uppercase, lowercase, capatilization
 
+Line-height
+letter spacing
+word spacing
+text align

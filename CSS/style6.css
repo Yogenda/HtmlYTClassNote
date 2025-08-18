@@ -1,0 +1,14 @@
+html{
+    font-size: 20px;
+}
+.box{
+    border: 1px solid black;
+    width: 200px;
+    font-size: 1.5rem; /* 1.5rem * 20px = 30px */
+}
+.parent{
+    font-size: 20px;
+}
+.child{
+    font-size: 2em; /* 2em * 20px = 40px*/
+}
