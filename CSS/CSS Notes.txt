@@ -236,3 +236,34 @@ Line-height
 letter spacing
 word spacing
 text align
+
+-------------------------------------
+Class 7
+Margin and padding
+fundamentals layout tools, controle the spacing around and inside the element. 
+for better visiblity
+
+margin defalut value: 0
+
+margin is the diff b/w elements
+
+padding: space b/w the border and the content
+padding defalut value: 0
+manage the space b/w the contenet and the border.
+
+margin vs padding
+feature                 margin                              padding
+- location              outside element border              inside the element border
+- background visible    No                                  yes 
+- collapse              vertical margins can be collapse    padding doesnot collapsed.
+- use case              use to seprate the elements         seprate the content from the border for better readiblity.
+
+
+short hand for margin and padding
+- 1 value : applied to all side
+- 2 values: vertical | horizontal
+- 3 values: top | horizontal | bottom
+- 4 values: top | right | bottom | left
+
+
+
