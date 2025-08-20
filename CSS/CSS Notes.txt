@@ -266,4 +266,56 @@ short hand for margin and padding
 - 4 values: top | right | bottom | left
 
 
+-------------------------------------
+Class 8
+box size: content box - border box
+box-size: it is used to calculate the width and height of an element
+box-size: content box
+    - The width and height applied only to the content.
+    - padding and border are added outside the set width/height increase the total space.
+
+acutal width:
+    width: 200px
+        20px padding left/right
+        5px border right/left
+    200+20+20+5+5 = 250px total width
+
+
+box-size: border box - 
+acutal width:
+    width: 200px (include padding and border)
+        20px padding left/right
+        5px border right/left
+    200 - (20*2)-(5*2) = 
+    200-40-10= 150px
+
+content box                             border box
+width+padding+border                width(all included)
+
+NOTE: for predictable layout especially with the grid layout and 
+responsive design use border-box.
+
+
+Overflow: controles what happened if content overflow in container box.
+    - hidden - not visible, clip - scrollbar not visible
+    - visible (Defalut) - show text outside the box - scrollbar not visible
+    - scroll - clip, but scroll - scrollbar is visible
+    - auto - clip, but scroll - if only required visible
+
+
+Outline vs border
+
+border: 
+    affects the layout: yes
+    display: color,width, style, (top, bottom, left, right)
+    visible in box model: visible b/w paddding and margin.
+    eg: card, button, etc.
+
+Outline:
+    affects the layout: No (doesnot takes the space)
+    display: supported by element, directions not there.
+    visible in box model: selection, heighlight, get the focus
+    can not have border radius in few explorer, shap will always be rectangle.
+
+
 

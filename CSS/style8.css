@@ -1,0 +1,49 @@
+.content-box-eg{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid olivedrab;
+    background-color: antiquewhite;
+    box-sizing: content-box;
+}
+.border-box-eg{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid olivedrab;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+.overflow-visible{
+    width: 180px;
+    height: 50px;
+    border: 2px solid greenyellow;
+    overflow: visible;
+    margin-bottom:50px ;
+}
+.overflow-hidden{
+    width: 180px;
+    height: 50px;
+    border: 2px solid purple;
+    overflow: hidden;
+    margin-bottom:20px ;
+}
+.overflow-scroll{
+    width: 180px;
+    height: 50px;
+    border: 2px solid blue;
+    overflow: scroll;
+    margin-bottom:20px ;
+}
+.overflow-scroll{
+    width: 180px;
+    height: 50px;
+    border: 2px solid blue;
+    overflow: scroll;
+    margin-bottom:20px ;
+}
+.overflow-auto{
+    width: 180px;
+    height: 50px;
+    border: 2px solid yellow;
+    overflow: scroll;
+    margin-bottom:20px ;
+}
