@@ -318,4 +318,50 @@ Outline:
     can not have border radius in few explorer, shap will always be rectangle.
 
 
+-------------------------------------
+Class 9
+Display properties: it controles the elements visual fomat.
+
+new line
+height and width not set
+margin and padding vertical can be set
+margin and padding horizontal can be set
+    - block: section format
+    - inline: text styling
+    - inlin-block: buttons/menues
+    - none: Toggle the text /show - hide
+
+Display block:
+    tag: div, h1-h6, form, header, footer, ul, li, etc.
+
+- starts from the new line
+- take the entire width of patent elemtn (defalut)
+- width, height, padding, margin properties.
+- stack: vertical align
+
+Display inline:
+    span, a, strong, img, etc.
+
+- not starts from the new line
+- top and bottom margin and padding not work only horizontal (left/right) will work
+- heigth and width not able to set
+
+
+display: inlin-block
+    no such tag you have set it manually in css.
+
+it inclue the property of both inline and block
+
+----
+positions: it tells how the elements has to be placed in the document.
+used mainly for fundamentals of design
+    - static (defalut)
+    - relative
+    - absolute
+    - fixed
+    - sticky
+
+
+
+
 

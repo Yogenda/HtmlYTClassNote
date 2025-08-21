@@ -1,0 +1,39 @@
+.block-div{
+    background: rebeccapurple;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+}
+.block-p{
+    background: yellowgreen;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+}
+.inline-block{
+    width: 100px;
+    height: 50px;
+    margin: 6px;
+    padding: 12px;
+    border: 2px solid greenyellow;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+
+}
+span{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+a{
+    display: block;
+}
