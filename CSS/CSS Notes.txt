@@ -353,6 +353,8 @@ display: inlin-block
 it inclue the property of both inline and block
 
 ----
+Class 10:
+
 positions: it tells how the elements has to be placed in the document.
 used mainly for fundamentals of design
     - static (defalut)
@@ -361,6 +363,20 @@ used mainly for fundamentals of design
     - fixed
     - sticky
 
+Static (defalut): 
+    - it is defalut position for all the elements
+    - elements are positiond according to the normal document flow.
+    - top, right, left, bottom position not applied
+    - doesnot remove the element from the normal flow
+
+Relative
+    - top, right, left, bottom move the element related to the normal position
+    - the elements and be overlapsed to each other.
+    - mostly used with absolute position
+    - z-index
+
+absolute
+    - 
 
 
 
