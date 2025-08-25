@@ -378,6 +378,20 @@ Relative
 absolute
     - 
 
+-----------------------------
+class 11
 
+fixed
+    - position will be related to the viewport (browser windows)
+    - fixed at a specific place even if we scroll our page.
+    - right, left, top, bottom yes we can use it.
+    - sticky header, floating action button.
+    - use the z-index to place the element on top of other.
+
+best used for;
+    - Nav bar, chat widget, button
+
+sticky
+    - 
 
 
