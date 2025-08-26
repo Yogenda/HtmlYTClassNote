@@ -395,3 +395,37 @@ sticky
     - 
 
 
+
+------------------- class 12 ---------------
+Float & clear
+Float: if you want to wrap the image around the text then we can use the float.
+    - left: element float to left
+    - right: element float to right
+    - none: defalut, no float
+    - inherit: move as the parent flow.
+
+
+clear: it will prevent the element flowing around
+    - left: ement move below left floated ement
+    - right: element move below the right side
+    - both: cleard the element from left and right (mostly used)
+    - none: by defalut
+
+
+Flex box: ​flex mean is a layout model that makes it easier to arrange elements 
+inside a container — especially when you need alignment, spacing.
+    - 1d layout model
+    - elements are placed in row or column
+    - alignement will be done in a container
+    - modern solution
+
+
+float vs flex box
+float - Text wrap | not good for responsive design
+flex blox - Design specific | best for responsive design (flex-wrap, )
+
+
+
+
+
+
