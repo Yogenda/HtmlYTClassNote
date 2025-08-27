@@ -425,6 +425,44 @@ float - Text wrap | not good for responsive design
 flex blox - Design specific | best for responsive design (flex-wrap, )
 
 
+------------------- class 13 ---------------
+grid
+    css grid will place the elements in 2 dimention format (row and column)
+    best used for image, dashboard, page layout, etc.
+
+    defalut: elements are in vertical / horizontal form stacked on each other.
+    
+    properties:
+        - grid-template-column: define the size of column.
+                values can be absolute(px) or relative(%, rem)
+        - grid-template-row: define the size of row in a grid.
+        - row/column gap: add the space b/w the row or column
+        - grid-template-area: 
+
+
+multi column 
+    multiple column layout like a newspaper
+    best used for article and newspaper writing
+
+    properties:
+        - column-count: it defines the number of coulmns 
+                Defalut: 1 (No column just a single block)
+        - column-gap: controles the gap b/w the column
+                defalut: 1em
+        - column-rule: help you to draw the line b/w columns
+
+grid vs multi column
+Grid 
+    - complet customization (row, column, overlapsed).
+    - gap, column-gap, row-gap
+    - no direct rule for colum
+
+Multi Column
+    - Limited to only column text change
+    - column-gap
+    - column-rule to make it more beauti
+    
+
 
 
 
