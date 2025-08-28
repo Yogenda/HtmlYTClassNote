@@ -461,7 +461,58 @@ Multi Column
     - Limited to only column text change
     - column-gap
     - column-rule to make it more beauti
-    
+
+
+----------------Class 14------------  
+Responsive Design (RWD): its an approach to develope web pages and you 
+can render the contendt as per different screen size.
+
+Viewport Meta tage: it controles the website how it will look like on mobile device.
+    desktop screen size: 980px
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        width=device-width: set the width of viewport to the device width.
+        initial-scale=1.0: set the inital zoom by 1
+        minimun-scale=1.0
+        maximum-scale=1.0
+        user-scalable = no : prevent the user from zooming on page.
+
+Media Query: apply the css rule based on the device
+    Syntex: 
+        @media media-type and (media-features){
+            /*css rules */
+        }
+    media-features:
+        min-width: you can set the viewport width
+        max-width: viewport is narrow now so the special value will be applied.
+        orientation: portrate or landscape
+        resolution: 
+        width, min-width, max-width
+        height, min-height, max-height
+    media-type:
+        all: suitable for all devices
+        print: for printing the content
+        screen: for computer scree, tablet, mobilephone
+        speech: for screenreader.
+    Logical Operations:
+        and: combine the multiple media function
+        not: negate the entire media query
+        only: hides the stylesheet
+        ,(comma): Acts as a OR operator
+
+Flexible Image:
+    img{
+        max-width: 100%;
+        heigh: auto
+    }
+
+Relative Units:
+    %,em, rem, vw, vh
+
+Break Point: 
+    mobile: <768px
+    tablet: 768px - 1024px
+    desktop: >1024px
+
 
 
 
