@@ -514,6 +514,39 @@ Break Point:
     desktop: >1024px
 
 
+-------class 15--------
+Advance selectors, forms, table, list
+
+Types in Advance Selector
+    - [attr]: select the element with the attribute
+    - [attr ="value"]: Exact match
+    - [attr^="value"]: Starting with
+    - [attr$="value"]: end with
+    - [attr*="value"]: Contains
+
+combination: select the element based on relationship
+    type:
+        - Decendant (A B): Matches all b inside A
+        - Child (A>B): match B directly inside A
+        - Adjesent Sibling (A+B): match the B immediatly after A
+        - General Sibling (A~B) : match all B after A
+
+pseudo-class: how our element will behave at a perticular state
+    defalut: browser supported
+        - :link : blue underline
+        - :visited : Puple
+        - :hover : on mouse hover
+        - :active : when you click
+    
+Pseduo-Elements: style the part of an element
+    - ::befor
+    - ::after
+    - ::first-letter
+    - ::first-line
+
+
+
+
 
 
 

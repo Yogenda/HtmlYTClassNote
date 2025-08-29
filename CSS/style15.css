@@ -1,0 +1,47 @@
+/* input[type]{
+    border: 2px solid black;
+}
+input[type="email"]{
+    border: 5px solid rgb(128, 0, 0);
+}
+input[type^="pass"]{
+    border: 5px solid yellowgreen;
+} 
+h1[name="hed"]{
+    border: 5px solid yellowgreen;
+}*/
+
+/*
+.parent p{
+    color: blue;
+}
+ .parent > p{
+    font-weight: bold;
+}
+p+span{
+    color: brown;
+}
+p~p{
+    color: gold;
+} */
+
+
+/* div.fb :link{color: brown;}
+div.google :visited{color: cadetblue;}
+a:hover{font-size: 50px;}
+a:active{color: darkgoldenrod;} */
+
+.quort::before{
+    content: '"';
+    color: red;
+}
+.quort::after{
+    content: '"';
+    color: red;
+}
+.quort::first-letter{
+    font-size: 50px;
+}
+p::first-line{
+   color: blueviolet;
+}
