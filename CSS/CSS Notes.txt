@@ -544,6 +544,22 @@ Pseduo-Elements: style the part of an element
     - ::first-letter
     - ::first-line
 
+-------- class 16 -------------
+CSS Transection: transition is a state of change in elements
+    properties: 
+        - transection-property: which help to animate
+        - transection-duration: how long the transection should work
+        - transection-time-function: pase of transection 
+        - transection-deleay: how much delaty in transection.
+
+CSS transformation: 
+    function: 
+        - translate(): move the element
+        - rotate(): rotate the element
+        - scale(): resize the element
+        - skew(): skew the element
+        - matrix(): combinethe transformation
+
 
 
 
