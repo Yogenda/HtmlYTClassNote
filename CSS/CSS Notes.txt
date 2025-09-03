@@ -560,7 +560,20 @@ CSS transformation:
         - skew(): skew the element
         - matrix(): combinethe transformation
 
+-------------- class 17 -----------
 
+CSS Animation:
+    we have implement the keyframes to do the animations
+
+animation properties:
+    - animation-name: name of keyframes
+    - animation-duration: how long it will run
+    - animation-time-function: pace of animation
+    - animation-delay: when animation should start
+    - animation-iteration-count: no of times we want to run
+    - animation-direction: direction of animation
+    - animation-fill-mode: style after/befor
+    - animation-play-status: pause or run
 
 
 
