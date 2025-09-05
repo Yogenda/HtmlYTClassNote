@@ -576,6 +576,12 @@ animation properties:
     - animation-play-status: pause or run
 
 
+------------ class 18 ----------
+Variable
+    we use it to manage our page
+it allow you to store the designe elements at a same place and use any where just by name.
+
+
 
 
 
