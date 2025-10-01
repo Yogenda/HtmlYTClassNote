@@ -1,0 +1,20 @@
+Introduction
+Basics of JS
+Control flow
+Function in JS
+Array
+String
+Objects
+DOM Model
+Advance Function
+ES6+ features
+Asyncronous JS
+OOPS JS
+JS in Browser
+Advance topics
+Error handeling and debugging
+Working with JSON and API
+JS & regular expressions
+Advance ES Features
+Projects
+

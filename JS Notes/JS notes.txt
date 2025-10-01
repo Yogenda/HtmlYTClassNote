@@ -1,0 +1,37 @@
+Introduction
+What is JavaScript?
+    it is scripting language used to intract with the web pages dynamicly.
+
+    it is on 3rd layer
+    - HTML - Structure
+    - CSS - Styling
+    - JS - Logics
+
+    Key concepts
+    - dynamiclly update the content
+    - Respond to user Events
+    - Manipulate the HTML and CSS
+    - API Integration
+
+    Features of JS
+    - light weight
+    - Run on Browser
+    - Cross plateform
+    - Event driven approach
+
+
+Evolution of JS
+    - ES3: 
+    - AJEX: 
+    - jQuery:
+    - ES5:
+    - NodeJS:
+    - ES6:
+    - Latest F/W: 
+
+Why JS is important?
+- 
+
+
+Online: code pen, replit
+Local: on your own pc
