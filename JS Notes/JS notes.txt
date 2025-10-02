@@ -32,6 +32,69 @@ Evolution of JS
 Why JS is important?
 - 
 
-
 Online: code pen, replit
 Local: on your own pc
+
+
+
+------- Class 2 -------
+syntax rules
+    - case sensetive
+    - statement end with ; (optinal but use it a good practice)
+    - wihitespace and indentation 
+    - curly brackets {} group or block of code
+
+console.log(): is used for debugging commonly used by developers
+alert(): quick popup for small notifications
+document.write(): old way, not recomended now a days(override the entire page)
+
+document.write() and alert() dont use in production website -> it will provide bad UX
+
+
+Variable 
+    - named containers to store the values
+
+let name = "Yogendra" //store the text
+let age = 27 //store the number
+
+old way of Variable
+
+var x = 10;
+console.log(x);
+
+var 
+    - function scope
+    - introduce in early JS
+    - can be re-declared and also update
+Note: it can caluse bug due to re-declared nature
+
+modern way let
+let y = 20;
+y=10;
+
+let
+    - introduced in ES6
+    - Block scope(only visible in {})
+    - can be updated but can not be re-declared in same scope
+
+
+const
+    - values can not be changed
+
+
+
+var 
+    - function scope
+    - we can re-assign
+    - we can re-declare
+    - leguacy code
+let 
+    - Block Scope
+    - we can re-assign
+    - we can not re-declare
+    - changing values
+const
+    - Block Scope
+    - we can not re-assign the values
+    - we can not re-declare
+    - constant values
