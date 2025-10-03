@@ -89,7 +89,7 @@ var
     - we can re-declare
     - leguacy code
 let 
-    - Block Scope
+    - Block Scope {}
     - we can re-assign
     - we can not re-declare
     - changing values
@@ -98,3 +98,62 @@ const
     - we can not re-assign the values
     - we can not re-declare
     - constant values
+
+
+------------ class 3 --------
+Data types
+    it decide or define which type of data you can store in variable.
+        - number
+        - string
+        - Array
+        - list
+        - objects......
+
+    two types
+        - Primitive Data type: immutable | predefined
+        - Non Primitive Data type: Mutable | user defined
+
+Primitive Data type: can not be changed but can be replaced
+    - Number
+    - String
+    - Boolean
+    - Null
+    - Undefined
+    - Symbol (ES6)
+    - BigInt (ES11/ES2020)
+
+    use number() to conver the data type
+    use parseInt(), parseFloat() when converting string
+
+    Note: dont use when the number is big (use BigInt insted)
+
+String: sequence of Characters (Text)
+    + is old way
+    template literals `${variable}` (Modern)
+
+Note: dont use in Binary/ structured data (use JSON or objects)
+
+
+Boolean: True / False
+    use for:
+        - conditions
+        - flags
+
+
+Null: when you want empty values
+    - reset or clear the form
+    - shoping cart is empty if clear all
+
+Undefined: when no value if declared
+    forms fields that are not filld by defalut those are Undefined
+
+
+BigInt: Number greate then -  Number.MAX_SAFE_INTEGER 
+    9007199254740991
+
+    use when you are working with finace app,. cryto app.....
+
+    use when take the values of aadhar card, bank a/c num....
+
+
+
