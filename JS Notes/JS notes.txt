@@ -155,5 +155,34 @@ BigInt: Number greate then -  Number.MAX_SAFE_INTEGER
 
     use when take the values of aadhar card, bank a/c num....
 
+Non Primitive: Objects and collections
+    - stored by reference
+    - there are mutable in nature
+
+Types:
+    - Objects : ​instance of class / where data stored in Key - value pair
+        - use the dot notations
+        - bracket notations
+
+        When to use in project:
+            - when adding products
+            - user details
+            - settings
+    
+    - Arrays : collection of elements of same type stored in order / ordered collection of elements
+
+    - Functions: reusable code | write Once use many time
+
+
+Operators: there are the tools to perfom the calculation, add the logic or the business rules to the project.
+    - Arithmetic Operators
+        operations: +,-,*,/,%,**,++,--
+    - comparison Operators: use to compare the values
+        operations: <,<=,>,>=,!=,!==,==,
+            ===   : strict equal (check value + Type)
+    - Logical Operators: 
+    - Assignement Operators
+    - Ternary Operators
+    
 
 
