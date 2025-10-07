@@ -181,8 +181,33 @@ Operators: there are the tools to perfom the calculation, add the logic or the b
         operations: <,<=,>,>=,!=,!==,==,
             ===   : strict equal (check value + Type)
     - Logical Operators: 
-    - Assignement Operators
-    - Ternary Operators
+        operations: 
+            AND (&&) : both condition must be true
+                a   b   r
+                1   0   0
+                1   1   1
+                0   1   0
+                0   0   0
+            OR (||) : Atleast one condition must be true
+                a   b   r
+                1   0   1
+                1   1   1
+                0   1   1
+                0   0   0
+
+            NOT (!) : Negate the operations
+                a   r
+                1   0
+                0   1
+
+
+    - Assignement Operators: use to asigne the value to variable
+        operations: =, +=, -=, *=, /=, %= ,**= 
+
+    - Ternary Operators: short cut for if-else statement
+        syntex
+            Condition ? true value : false value
+
     
 
 
