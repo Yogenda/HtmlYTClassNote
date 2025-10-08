@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        //Implisit type casting
+        console.log("5"+2)
+        console.log("5"+true)
+        // + symbol is working as a concatination
+
+        console.log("5"-2)
+        console.log("5"*"5")
+        console.log("100"/"4")
+        // string convertedd into number
+        */
+
+        /*
+        Explisit (Manual type casting)
+        
+        console.log(Number("123"));
+        console.log(Number("123abc"));
+        console.log(parseInt("123.54"));
+        console.log(parseFloat("123.54"));
+        console.log(parseInt("123abc"));
+
+        let price = 500;
+        console.log("Rs: "+String(price))
+        */
+        /*
+        let age = 27;
+        if(age>=20){
+            console.log("You can vote....")
+        }
+        */
+        /*
+        let marks = 35;
+        if(marks>=40){
+            console.log("You are pass");
+        }else{
+            console.log("You are fail")
+        }
+        */
+        let temp = 27;
+        if(temp>=35){
+            console.log("Its hot outside");
+        } else if(temp>25){
+            console.log("Its warm outside");
+        }else if(temp>15){
+            console.log("Its cool outside");
+        }else {
+            console.log("Its cold outside");
+        }
+
+        let isLoggIn = true;
+        let isAdmin = false;
+        if(isLoggIn){
+            if(isAdmin){
+                console.log("Welcome admin...");
+            }
+            else{
+                console.log("Welcome User...");
+            }
+        }else{
+            console.log("First loggin the try..");
+        }
+
+        if(isLoggIn && isAdmin){
+            console.log("Welcome admin...");
+        }else if(isLoggIn && !isAdmin){
+            console.log("Welcome User...");
+        }else{
+            console.log("First loggin the try..");
+        }
+
+
+    </script>
+</body>
+</html>

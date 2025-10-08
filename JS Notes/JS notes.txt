@@ -208,6 +208,62 @@ Operators: there are the tools to perfom the calculation, add the logic or the b
         syntex
             Condition ? true value : false value
 
+
+
+--------------- class 6 ----------------
+Type casting: converting the data from once data type to another
+    - Implisit: change data type automacilly
+        advantages:
+            - make code short and flexible
+            - helpful for loose comarision
+
+        disadvantages:
+            - answers can be misleading / unexpected results
+    - Explisit: change data type manually
+        advantages:
+            - full control on program
+            - reduce the unexpected bugs
+
+        disadvantages:
+            - extra coding
+            - need to handle it with care
     
+
+Control flow statements: its the way you are controling the flow of program
+    - if, else, else if
+    - switch case
+    - loops
+    - for..of and for..in
+    - break and continue
+
+
+IF: it execute the statement when the condition is true
+    if(condition){
+        ------
+        statement
+        ----------
+    }
+
+If and else: we can have 2 possiblities - true / false
+    if(condition){
+        ------
+        statement (True)
+        ----------
+    }else{
+        statement (False)
+    }
+
+else..if: use to check the multiple condition
+    if(condition){
+        ------
+        statement (True)
+        ----------
+    }else if(condition2){
+        statement (True)
+    }else if(condition3){
+        statement (True)
+    }else{
+        statement (False)
+    }
 
 
