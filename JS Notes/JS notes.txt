@@ -267,3 +267,38 @@ else..if: use to check the multiple condition
     }
 
 
+--------------------- Class 7 -------------------
+switch case statement
+    it is the statement to execute the multiple block of statement based on the user input.
+
+Syntex
+switch (expression){
+    case value1:
+        -----stmt-----
+        break;
+    case value2:
+        -----stmt-----
+        break;
+    defalut:
+}
+
+advantages:
+    - Improve the readiblty
+    - easy to manage the menue driven programs
+
+Disadvantages:
+    - can be long in more cases
+    - no range base condition
+    - if you miss break then god will save you :)
+
+
+Loops: use when we have to repeat the statement for multiple number of times. Used to write the clean and easy code
+    - for 
+    - while
+    - do..while
+
+FOR:
+    syntax
+    for(initalize; condition; increment/decrement){
+        ----statement---------
+    }
