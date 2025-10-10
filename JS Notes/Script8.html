@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // sum of a number using the for loop
+        /*
+        let sum =0;
+        for(let i = 1; i<=5; i++){
+            sum = sum + i;
+            // sum+=i;
+        }
+        console.log(`Total is: ${sum}`);
+        */
+        
+        // Print the table
+        /*
+        let number = 5;
+        for(i=1; i<=10; i++){
+            console.log(`${number} X ${i} = ${number*i}`)
+        }
+        */
+        //Nested Loop: loop inside the another loop 
+        /*
+        for(let i = 1;i<=5;i++){
+            for(let j = 1; j<=5; j++){
+                console.log(`i=${i}, j=${j}`)
+            }
+        }
+        */
+
+        //array in for loop
+        /*
+        let name = ["Madhu","Humera","Shrada","Mayui"];
+        for(let i=0; i<name.length; i++){
+            console.log(name[i]);
+        }
+        */
+
+        //while
+        /*
+        let num = 1;
+        while(num<=5){
+            console.log(num)
+            num++;
+        }
+        */
+        /*
+        let isDataLoad = false;
+        let tires = 0;
+        while(!isDataLoad&&tires<5){
+            console.log("Fetching Data....")
+            tires++;
+
+            if(tires===3) isDataLoad=true;
+        }
+        console.log("Data Load Sucessfull..");
+        */
+
+        let attempt = 0;
+        let maxAttempt = 3;
+        let correctPin = 1234;
+        let enteredPin = 1111;
+        while(enteredPin !== correctPin && attempt<maxAttempt){
+            console.log(`Incorrect Pin ${attempt+1}`);
+            attempt++;
+            enteredPin= 1234;
+        }
+        if(enteredPin == correctPin){
+            console.log("Access Granted.....");
+        }else{
+            console.log("Account locked - contact your branch.");
+        }
+
+
+    </script>
+</body>
+</html>

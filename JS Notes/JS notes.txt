@@ -302,3 +302,14 @@ FOR:
     for(initalize; condition; increment/decrement){
         ----statement---------
     }
+
+While:
+    syntax:
+    while(condition){
+        // code to execute
+    }
+    
+    when to use while loop:
+        - when you dont know the iteration values
+        - when the condition change dynamically.
+    
