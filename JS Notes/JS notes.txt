@@ -312,4 +312,48 @@ While:
     when to use while loop:
         - when you dont know the iteration values
         - when the condition change dynamically.
+
+Do..While loop:
+    syntax:
+        do{
+            ------statements------
+        }While(condition);
+
+
+
+Diff b/w while and do..while loop
+while: condition check before code execution. | Code runs until condition become false.
+do..while: condition check after the code exection. | Code runs atleast one time
+
+
+when to use the Do..While loop
+    - when you need to execute your code atleast once.
+    - idealy for menuem, login, prompts.
     
+for in  - uset o iterate over enumerator.
+
+for of - is used to iterate throuch the values
+    - Array 
+    - String
+    - Map
+    - set
+    - DOM Model
+        syntax
+            for(let element of iterable){
+                // coding
+            }
+
+for of vs for in
+for of:  
+    - iteration is done on values
+    - works well with arrays, string, map etc.
+    - List or collection
+
+
+for in: 
+    - iteration is done on keys
+    - works well with Objects 
+    - key and value pair
+
+break: help to stop the loop instantly
+continue: is use to continue the statement by not concedering the value of conditon.
