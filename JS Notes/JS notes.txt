@@ -357,3 +357,21 @@ for in:
 
 break: help to stop the loop instantly
 continue: is use to continue the statement by not concedering the value of conditon.
+
+
+--------------------- Functions in JS --------------------
+Function Declaration:  when the function is called before declaration is called as
+ Hoisting
+    use when you are writing the main program logic, recursive functions 
+
+Function Expression: when function is stored inside a variable
+    use when you are doing callback, eventHandelers, conditional function
+
+Parameters: there are the placeholders and the Arguments are the actual values we write in Parameters.
+
+Arguments: when you pass the values in parameters that is called as arguments. that to in no arrow function.
+
+Return value: it will return the value of a function without this the function will be undiefined.
+
+
+
