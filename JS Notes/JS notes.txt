@@ -373,5 +373,18 @@ Arguments: when you pass the values in parameters that is called as arguments. t
 
 Return value: it will return the value of a function without this the function will be undiefined.
 
+defalut parameters: you can assign the defalut values to parameters -- used when no arguments is passed.
 
+Arrow function: it simply shorten down the syntax of function in a single statement. (Lexical binding).
+    advantages: 
+        - short syntax
+        - lexical binding is used to callback (No this keyword)
+    disadvantages:
+        - can't be used as a constructor.
+        - doesnot support the arguments objects.
 
+Scope (Global vs local):
+    Global: access from anywhere
+    Local: access only inside the block/function.
+
+Hoisting: it allows you to call function before it's declaration. but only works with function declaration not with function expression.
