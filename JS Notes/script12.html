@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let bike = ["BMW","Suzuki","Bajaj","Apachi",1];
+        console.log(bike[0]);
+        console.log(bike[2]);
+        console.log(bike[4]);
+        bike[4]="KTM"
+        console.log(bike);
+        // let number = new Array(10,20,30,40,50); //not recommendet better use the [] method
+        /*
+       //pop(): remove the element from the array from the end
+       //push(): add/insert the element in the end
+        bike.pop();
+        console.log(bike);  
+        bike.push("Platina");
+        console.log(bike); 
+            //spread syntax
+        bike = [...bike, "Kaju"]
+        console.log(bike);
+        //shift(): remove the element from the start
+                //insted on shift use the slice method
+        //unshift(): adds the element at start.
+        bike.shift();
+        console.log(bike); 
+        console.log("-----");
+        bike = bike.slice(1);
+        console.log(bike);
+        bike.unshift("Ladoo");
+        console.log(bike);
+        
+        //map(): use when you dont want to change the original data
+        let num = [1,2,3,4,5];
+        let sq = num.map(num => num*num);
+        console.log(sq);
+
+        // filter():
+        let age = [10,18,20,15,29];
+        let adult = age.filter(age => age>=18);
+        console.log(adult);
+
+        //reduce()
+        let price =[50,90,70,50,60];
+        let total = price.reduce((sum,price)=> sum+price,0);
+        console.log(total);
+        */
+        //forEach()
+        bike.forEach((bike,index)=>{
+            console.log(index,bike);
+        });
+    </script>
+</body>
+</html>
