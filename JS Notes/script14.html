@@ -1,0 +1,99 @@
+<!-- 
+What are Objects in JS ? 
+object is  a collection of key and value pair(called as properties)
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        //Method 1: most common
+        const studnet ={
+            name: "Yogendra",
+            age: 27,
+            course: "JavaScript",
+            isEnrolled: true
+        }
+        console.log(studnet.course)
+
+        //method 2
+        const car = new Object();
+        car.brand = "BMW";
+        car.model = "X5";
+        car.price = 60000;
+        console.log(car)
+
+        //method 3: using function constructor
+        function Car(brand,model,price){
+            this.brand = brand;
+            this.model = model;
+            this.price = price;
+        }
+        const car1 = new Car("Audi","A6",30000);
+        console.log(car1)
+
+        //method 4: using class (Moden way ES6)
+        class Cars{
+            constructor(brand,model,price){
+                this.brand = brand;
+                this.model = model;
+                this.price = price;
+            }
+        }
+        const car2 = new Cars("Mercedes","C-Class",80000);
+        console.log(car2.model);
+        console.log(car2["brand"]);
+
+        console.log(studnet);
+        delete studnet.name;
+        console.log(studnet);
+        
+
+        const person ={
+            name:"Jagdish",
+            greet: function(){
+                return "Hello "+this.name;
+            }
+        };
+        console.log(person.greet());
+
+        const user = {name: "Jagdish",age:23,city:"Pune"};
+        for(let key in user){
+            console.log(key +":",user[key]);
+        }
+        console.log(Object.keys(user));
+        console.log(Object.values(user));
+        console.log(Object.entries(user));
+        */
+    </script>
+    <h2>JS Object Example</h2>
+    <button onclick="showDetails()">Show Car Details</button>
+    <p id="output"></p>
+    <script>
+        const car = {
+            brand: "Tesla",
+            model: "Model 3",
+            price: 50000,
+            features: ["Auto Pilot","Electric","Fast Charging"],
+            displayInfo: function(){
+                return `${this.brand} ${this.model} cost $${this.price}`;
+            }
+        }
+        function showDetails(){
+            let info = car.displayInfo()+"<br>Features:<br>"
+
+            car.features.forEach((feature,i)=>{
+                info +=`${i+1}.${feature}<br>`
+            });
+            document.getElementById("output").innerHTML=info;
+        }
+    </script>
+</body>
+</html>
