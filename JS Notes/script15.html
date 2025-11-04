@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        JSON: javascript Object Notation
+        {
+            "user":"Yogendra"
+            "address":"Rohtak"
+            "items":["Laptop","Mouse"]
+        }
+
+        js vs json
+        - json is in string format (text based)
+        - js store data in object format
+
+        - json doble quotation key
+        - js without any quotation key
+
+        - json store only string, number, boolean, null, object, arrays as value
+        - js can use the functions, undiefined, symbols.
+
+        - json use to store or transfer data
+        - js use to manipulat  the data
+        */
+        
+        const stud = {
+            name: "Yogendra",
+            age: 27,
+            isEnroled: true
+        }
+        const jsonData = JSON.stringify(stud);
+        console.log(jsonData);
+
+        const user = {
+            name: "Yogendra",
+            skills: ["js","java","python","DSA"],
+            address: {city:"Rohtak",pin:124001}
+        }
+        console.log(JSON.stringify(user));
+
+        const jsonString = '{"name":"Yogendra","age":27,"couse":"js"}'
+        const obj = JSON.parse(jsonString);
+        console.log(obj.name)
+
+    </script>
+</body>
+</html>
