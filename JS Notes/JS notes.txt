@@ -388,3 +388,27 @@ Scope (Global vs local):
     Local: access only inside the block/function.
 
 Hoisting: it allows you to call function before it's declaration. but only works with function declaration not with function expression.
+
+
+DOM: Document Object Model
+    how dom is created
+        - when page lodes
+        - browser reads the HTML and read the document from top to bottom
+        - each tags become the nodes(objects) in memory
+        - these nodes will  be connected in a tree structure
+
+document  ------------------------------------------------ Root of DOM
+    HTML  ------------------------------------------------ HTML elements
+        head  -------------------------------------------- HTML elements
+            title  --------------------------------------- HTML elements
+                "DOM Example"  --------------------------- Text content
+        body --------------------------------------------- HTML elements
+            h1  ------------------------------------------ HTML elements
+                "Hello DOM!"  ---------------------------- Text content
+            p  ------------------------------------------- HTML elements
+                "its a simple p tag"  -------------------- Text content
+            div  ----------------------------------------- HTML elements
+                p  --------------------------------------- HTML elements
+                    "I am inside the div tag" ------------ Text content
+
+ID="title" ------- the attribute of an element

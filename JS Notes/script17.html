@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+</head>
+<body>
+    <!-- <h1 id="title">Hello DOM!</h1>
+    <p>its a simple p tag</p>
+    <div>
+        <p>I am inside the div tag</p>
+    </div> -->
+
+    <h1 id="heading">Welcom to DOM!</h1>
+    <p class="info">DOM : Document Object Model</p>
+    <script>
+        //accessing the content
+        const title = document.getElementById("heading");
+        const info = document.querySelector(".info");
+
+        //modify the content
+        title.textContent = "Let's learn about the DOM Tree!";
+        info.style.color = "blue";
+
+        console.log(document.body);
+
+    </script>
+
+</body>
+</html>
