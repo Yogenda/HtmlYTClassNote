@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="container">
+        <h2>Headding 2</h2>
+        <p>p tag inside the div tag</p>
+    </div>
+    <script>
+        const div = document.getElementById("container");
+
+        console.log(div.firstChild);
+        console.log(div.children[0]);
+        console.log(div.children[1]);
+        console.log(div.parentNode);
+    </script> -->
+
+    <h2 id="heading">Real heading</h2>
+    <ul id="list">
+        <li>Apple</li>
+        <li>Mango</li>
+    </ul>
+
+    <script>
+        const heading = document.getElementById("heading");
+        const list = document.getElementById("list");
+
+        heading.textContent = "Updated Heading";
+
+        const newItem = document.createElement("li");
+        newItem.textContent = "Cherry";
+        list.appendChild(newItem);
+
+        list.removeChild(list.firstElementChild)
+    </script>
+
+</body>
+</html>
